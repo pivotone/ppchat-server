@@ -1,4 +1,5 @@
 language: java
 jdk:
  - openjdk8
+install: cd ppchat-server && mvn install -DskipTests=true -Dmaven.javadoc.skip=true
 script: mvn test
