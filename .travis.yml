@@ -1,9 +1,0 @@
-language: java
-jdk:
- - openjdk8
-before_install:
- - chmod +x mvnw
-script: 
- - echo "start"
- - mvn test
- - echo "End"
